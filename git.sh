@@ -5,7 +5,7 @@
 
 git clone git@github.com:KanchanSoni16/awesome_project.git
 #rsync ./ ./awesome_project
-rsync -av --exclude={'awesome_project,.terraform'} ./ ./awesome_project/
+rsync -av --exclude 'awesome_project' --exclude '.terraform' ./ ./awesome_project/
 cd awesome_project
 #cp -r ../* ./awesome_project --exclude awesome_project
 #git switch master
