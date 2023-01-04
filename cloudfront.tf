@@ -35,11 +35,11 @@ resource "aws_cloudfront_distribution" "api_gateway_cf" {
       restriction_type = "none"
     }
   }
-/*
+
   provisioner "local-exec" {
   command = "./graph.sh"
     }
-    
+   /* 
   provisioner "local-exec" {
     command = "./git.sh"
     }*/
