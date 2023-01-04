@@ -38,12 +38,13 @@ resource "aws_cloudfront_distribution" "api_gateway_cf" {
 /*
   provisioner "local-exec" {
   command = "./graph.sh"
-  }
-
+    }
+    
   provisioner "local-exec" {
-  command = "./git.sh"
-  }
-*/
+    command = "./git.sh"
+    }*/
+      
+
   retain_on_delete = true # it will destroy instead of disabling it if we want to disable it then no need to specify explicitly 
 }
 
