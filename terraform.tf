@@ -1,7 +1,7 @@
 
 # terraform backend creation
-/*
-terraform{
+
+/*terraform{
   backend "s3" {
     bucket = "statefile-bucket01"
     key    = "terraform.tfstate"
